@@ -1,24 +1,12 @@
-import './App.css'
-import Button from '@mui/material/Button';
-import Stack from '@mui/material/Stack';
-
-function App() {
+import { RouterProvider } from "react-router-dom"
+import router from "./routes"
 
 
+const App = () => {
   return (
-    <Stack direction="row" spacing={2}>
-      <Button variant="contained">Contained</Button>
-      <Button variant="contained" disabled>
-        Disabled
-      </Button>
-      <Button variant="contained" href="#contained-buttons">
-        Link
-      </Button>
-    </Stack>
-  );
+    <RouterProvider router={router} />
+
+  )
 }
-
-
-
 
 export default App
