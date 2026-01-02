@@ -1,0 +1,10 @@
+* {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.button {
+  background-color: blueviolet;
+  color: white;
+  border-color: black;
+}

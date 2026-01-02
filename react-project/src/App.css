@@ -1,0 +1,11 @@
+.card {
+  background-color: rgb(242, 246, 249);
+  color: rgba(74, 2, 217, 0.459);
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid black;
+}
+
+.cards {
+  display: inline-flex;
+}

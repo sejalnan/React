@@ -1,0 +1,28 @@
+/children component me html hi pass hota hai
+{
+  /* <Hello />
+        <Welcome /> */
+  //   <UserCard name="Sejal" age="21" status={false} hideage={false} />
+  // <UserCard name="Payal" age="22" status={true} hideage={true} />
+}
+
+{
+  /* <Greeting myname="Sejal" /> Creating a prop of name "myname" */
+}
+{
+  /* Here age will be taken as default  */
+}
+{
+  /* <Button text="Click Me" />
+      <Hello name="sejal">
+        <Button name="My name is {user}"> Hey x</Button>
+      </Hello> */
+}
+
+ const data = {
+    user1: { u: "sejal", a: 21 },
+    user2: { u: "payal", a: 18 },
+    user3: { u: "Gauri" },
+  };
+
+  const names = [sejal, payal, shreya, abc];

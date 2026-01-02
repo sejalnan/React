@@ -1,0 +1,18 @@
+* {
+  background-color: wheat;
+  color: black;
+}
+
+.component {
+  color: black;
+}
+
+.bg_red {
+  background-color: red;
+}
+.bg_blue {
+  background-color: blue;
+}
+.bg_green {
+  background-color: green;
+}
