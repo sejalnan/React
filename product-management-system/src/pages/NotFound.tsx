@@ -1,11 +1,9 @@
 import { Link } from 'react-router-dom'
-// import '../assets/css/404.css'
+import '../assets/css/404.css'
 const NotFound = () => {
 
     return (
         <div className='not-found'>
-            {/* <aside><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4424790/Mirror.png" alt="404 Image" /> */}
-            {/* </aside> */}
             <main>
                 <h1>Sorry!</h1>
                 <p>

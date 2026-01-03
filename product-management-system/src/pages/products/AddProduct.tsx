@@ -57,6 +57,9 @@ export const AddProduct = () => {
                         onChange={handleChange}
                         fullWidth
                         margin="normal"
+                        required
+
+
                     />
                 </div>
                 <div>
@@ -68,6 +71,7 @@ export const AddProduct = () => {
                         onChange={handleChange}
                         fullWidth
                         margin="normal"
+                        required
                     />
                 </div>
                 <div>
@@ -79,6 +83,7 @@ export const AddProduct = () => {
                         onChange={handleChange}
                         fullWidth
                         margin="normal"
+                        required
                     />
                 </div>
 
@@ -91,6 +96,7 @@ export const AddProduct = () => {
                         onChange={handleChange}
                         fullWidth
                         margin="normal"
+                        required
                     />
                 </div>
                 <div>
@@ -102,12 +108,13 @@ export const AddProduct = () => {
                     </Button>
                 </div>
 
-
-
-
             </form>
         </div>
     )
 }
 
 export default AddProduct
+
+
+
+//want to add the check if value is not availabel do not submit it.
