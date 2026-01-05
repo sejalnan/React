@@ -1,20 +1,21 @@
-import { Link, Outlet } from 'react-router-dom'
+import { Outlet } from "react-router-dom";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const Layout = () => {
-    return (
-        <div>
-            <h1 style={{ textAlign: 'center' }}>Product Management System</h1>
-            <ul>
-                <li>
-                    <Link to={'/add-product'} >Add Product</Link>
+  return (
+    <>
+      <Header />
+      {/* <Link to={'/add-product'} >Add Product</Link>
                     <Link to={'/products'} >Products</Link>
-                    <Link to={'/edit-product'} >Edit Product</Link>
+                    <Link to={'/edit-product'} >Edit Product</Link> */}
+      <div style={{ minHeight: "600px" }}>
+        <Outlet />
+      </div>
 
-                </li>
-            </ul>
-            <Outlet />
-        </div>
-    )
-}
+      <Footer />
+    </>
+  );
+};
 
-export default Layout
+export default Layout;

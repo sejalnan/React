@@ -46,7 +46,7 @@ export const AddProduct = () => {
     }
     return (
         <div >
-            <h1>Add Product</h1>
+            {/* <h1>Add Product</h1> */}
             <form onSubmit={handleSubmit} className="form">
                 <div className="items">
                     <label htmlFor="">Product Name</label>
